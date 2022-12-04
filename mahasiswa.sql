@@ -24,7 +24,7 @@ MariaDB [fakultas]> insert into jurusan (kode, nama) values ("PJK", "pajak");
 
 /* insert mahasiswa */
 MariaDB [fakultas]> insert into mahasiswa (id_Jurusan, nim, nama, Jenis_Kelamin, Tempat_Lahir, Tanggal_Lahor, alamat) value (1, "195030407111055", "Heri", "Pria", "Jakarta", "17-08-01", "Swadaya 2");
-
+MariaDB [fakultas]> insert into mahasiswa (id_Jurusan, nim, nama, Jenis_Kelamin, Tempat_Lahir, Tanggal_Lahor, alamat) value (2, "195030400111055", "wisnu", "Pria", "Jakarta", "17-08-01", "Swadaya 2");
 /* Update mahasiswa */
 MariaDB [fakultas]> update mahasiswa set alamat= "jl. Swadaya 4" where id=1;
 
